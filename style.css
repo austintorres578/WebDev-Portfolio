@@ -395,6 +395,7 @@ body{
     color: white;
 }
 .project-buttons button{
+    cursor: pointer;
     padding: 5px 10px 5px 10px;
     border: none;
     font-size: 18px;
@@ -502,6 +503,7 @@ body{
     width: 90%;
 }
 .contact-form div button{
+    cursor: pointer;
     margin-top: 25px;
     width: 90%;
     font-size: 24px;
