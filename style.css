@@ -348,6 +348,7 @@ body{
     
 }
 .projects-container div{
+    cursor: pointer;
     margin-bottom: 25px;
 }
 .projects-container div img{
