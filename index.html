@@ -34,7 +34,7 @@
         </div>
         <div class="about-me-header-container">
             <p class="about-me-greeting">Hello,</p>
-            <h3 class="about-me-header">About Me</h3>
+            <p class="about-me-header">About Me</p>
         </div>
         <div class="about-me-container">
             <div>
@@ -44,19 +44,19 @@
                 <p class="about-me-details">My name is Austin Torres and I am a self taught web developer. I'm constantly growing my proficiency in HTML, CSS, and Javascript to become a professional in front-end development, but I'm always eager to learn new things and grow as a developer overall.</p>
                 <div>
                     <p class="tech-header">Technologies</p>
-                    <ul class="tech-list">
-                        <div>
+                    <div class="tech-list">
+                        <ul>
                             <li>- HTML5</li>
                             <li>- CSS3</li>
                             <li>- Javascript</li>
                             <li>- Bootstrap</li>
-                        </div>
-                        <div>
+                        </ul>
+                        <ul>
                             <li>- React</li>
                             <li>- Figma</li>
                             <li>- Git</li>
-                        </div>
-                    </ul>
+                        </ul>
+                    </div>
                     <a href="Resume.pdf" aria-label="view or download resume"><button>Resume</button></a>
                 </div>
             </div>
@@ -99,7 +99,7 @@
         </div>
         <div class="projects-header-container">
             <p class="projects-greeting">What I've done,</p>
-            <h3 class="projects-header">Projects</h3>
+            <p class="projects-header">Projects</p>
         </div>
         <div class="projects-container">
             <div style="background-color: #00e8b6;">
@@ -183,21 +183,21 @@
         </div>
         <div class="contact-page-header-container">
             <p class="contact-greeting">Lets talk,</p>
-            <h3 class="contact-header">Contact me</h3>
+            <p class="contact-header">Contact me</p>
         </div>
         <div class="contact-page-container">
             <form name="contact" method="POST" data-netlify="true" class="contact-form">
                 <div class="name-contact">
-                    <p>Name</p>
+                    <label for="name">Name</label>
                     <input for="name" type="text" name="name" id="name" required>
                 </div>
                 <div class="email-contact">
-                    <p>Email</p>
-                    <input for="email" type="email" name="email" required>
+                    <label for="email">Email</label>
+                    <input for="email" type="email" id="email" required>
                 </div>
                 <div class="message-contact">
-                    <p>Message</p>
-                    <textarea for="message" name="message" required></textarea>
+                    <label for="message">Message</label>
+                    <textarea for="message" name="message" id="message" required></textarea>
                 </div>
                 <div class="button-contact">
                     <button type="submit">Submit</button>
