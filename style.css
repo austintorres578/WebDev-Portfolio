@@ -372,6 +372,13 @@ body{
     height: 90px;
     width: auto;
 }
+.project-details-tech p{
+    font-weight: bold;
+    margin: 0px 0px 5px 0px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
 .project-block-one{
     background-color: #001c20;
     padding: 20px
