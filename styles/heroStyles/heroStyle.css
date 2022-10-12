@@ -1,0 +1,60 @@
+.scroll-down {
+  position: absolute;
+  top: 80%;
+  display: flex;
+  justify-content: left;
+}
+
+.scroll-down hr {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 10px;
+  height: 0px;
+  width: 50px;
+}
+
+.scroll-down p {
+  color: white;
+  font-size: 18px;
+}
+
+.hero-img {
+  z-index: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 750px;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/1110975.webp");
+  background-position: center;
+}
+
+.hero-img div {
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+}
+
+.hero-img div img {
+  height: 210px;
+  width: auto;
+  border-radius: 50%;
+}
+
+.hero-img div h1 {
+  color: aquamarine;
+}
+
+.hero-img div p {
+  color: white;
+  font-style: italic;
+}
+
+.hero-name {
+  font-size: 40px;
+  margin: 0px;
+}
+
+.hero-sub {
+  margin: 0px;
+  font-weight: normal;
+}/*# sourceMappingURL=heroStyle.css.map */

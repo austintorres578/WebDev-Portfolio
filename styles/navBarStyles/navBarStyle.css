@@ -1,0 +1,32 @@
+@media (max-width: 550px) {
+  .nav-bar .nav-container li a {
+    font-size: 20px;
+  }
+}
+.nav-bar {
+  z-index: 2;
+  position: fixed;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: rgba(1, 22, 23, 0.603);
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 0px;
+}
+
+.nav-container li a {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  color: white;
+  transition: 0.5s;
+}
+
+.nav-container li a:hover {
+  color: #00e8b6;
+}/*# sourceMappingURL=navBarStyle.css.map */

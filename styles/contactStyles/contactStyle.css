@@ -1,0 +1,161 @@
+@media (max-width: 810px) {
+  .contact-page .contact-page-header-container {
+    padding-left: 50px;
+  }
+}
+@media (max-width: 750px) {
+  .contact-page .contact-page-header-container {
+    text-align: center;
+    padding-left: 0px;
+  }
+}
+@media (max-width: 515px) {
+  .contact-page .contact-page-container .contact-form {
+    width: 95%;
+  }
+  .contact-page .contact-page-header-container {
+    padding-left: 0px;
+    text-align: center;
+  }
+}
+.contact-page {
+  background-color: #002f36;
+}
+
+.contact-page-num {
+  display: flex;
+  justify-content: right;
+}
+
+.contact-page-num hr {
+  height: 1px;
+  width: 90px;
+  border: none;
+  background-color: #00e8b6;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.contact-page-num p {
+  font-size: 50px;
+  color: #00869d;
+  margin-right: 10px;
+}
+
+.contact-page-header-container {
+  padding-left: 150px;
+  margin-bottom: 100px;
+}
+
+.contact-page-container {
+  padding-bottom: 100px;
+}
+
+.contact-greeting {
+  color: #00e8b6;
+  font-weight: bold;
+  font-size: 24px;
+  margin: 0px;
+}
+
+.contact-header {
+  font-size: 30px;
+  font-weight: normal;
+  margin: 0px;
+  color: white;
+  -webkit-text-decoration: #00e8b6 underline;
+          text-decoration: #00e8b6 underline;
+}
+
+.contact-form {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px 0px 15px 0px;
+  border: solid rgb(0, 232, 182);
+  text-align: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  width: 500px;
+}
+
+.contact-form p {
+  text-align: left;
+  padding-left: 25px;
+}
+
+.contact-form div input {
+  width: 90%;
+}
+
+.contact-form div textarea {
+  width: 90%;
+}
+
+.contact-form div button {
+  cursor: pointer;
+  margin-top: 25px;
+  width: 90%;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.name-contact > label {
+  display: block;
+  text-align: left;
+  padding-left: 22px;
+  color: white;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.name-contact > input {
+  width: 350px;
+}
+
+.email-contact > label {
+  display: block;
+  text-align: left;
+  padding-left: 22px;
+  color: white;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.email-contact > input {
+  width: 350px;
+}
+
+.message-contact > label {
+  display: block;
+  text-align: left;
+  padding-left: 22px;
+  color: white;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.message-contact > textarea {
+  width: 350px;
+  height: 175px;
+}
+
+.button-contact {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.button-contact > button {
+  width: 350px;
+  height: 50px;
+  background-color: rgb(0, 232, 182);
+  color: black;
+  border: none;
+  transition: 0.5s;
+}
+
+.button-contact > button:hover {
+  background-color: white;
+}/*# sourceMappingURL=contactStyle.css.map */

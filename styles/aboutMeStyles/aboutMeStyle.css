@@ -1,0 +1,141 @@
+@media (max-width: 810px) {
+  .about-me .about-me-header-container {
+    padding-left: 50px;
+  }
+}
+@media (max-width: 750px) {
+  div.about-me {
+    padding-bottom: 30px;
+  }
+  .about-me .about-me-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  div .about-me-content {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .about-me .about-me-header-container {
+    padding-left: 0px;
+    text-align: center;
+  }
+  .about-me-greeting {
+    text-align: center;
+  }
+  .about-me-header {
+    text-align: center;
+  }
+  .about-me-details {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  div .tech-header {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 90%;
+  }
+  div .tech-list {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+  .tech-list div li {
+    text-align: center;
+    font-size: 18px;
+  }
+  .about-me-content button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .about-me .about-me-tech img {
+    height: 80px;
+    width: auto;
+  }
+}
+.about-me {
+  padding-bottom: 50px;
+  background-color: #001c20;
+}
+
+.about-me-page-num {
+  display: flex;
+  justify-content: right;
+}
+
+.about-me-page-num hr {
+  background-color: #00e8b6;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 90px;
+  height: 1px;
+  border: none;
+}
+
+.about-me-header-container {
+  padding-left: 150px;
+}
+
+.about-me-page-num p {
+  color: #00869d;
+  font-size: 50px;
+  margin-right: 10px;
+}
+
+.about-me-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: space-evenly;
+  margin-bottom: 75px;
+}
+
+.about-me-greeting {
+  color: #00e8b6;
+  font-weight: bold;
+  font-size: 24px;
+  margin: 0px;
+}
+
+.about-me-header {
+  font-size: 30px;
+  font-weight: normal;
+  margin: 0px 0px 35px 0px;
+  color: white;
+  -webkit-text-decoration: #00e8b6 underline;
+          text-decoration: #00e8b6 underline;
+}
+
+.about-me-details {
+  color: white;
+  font-size: 18px;
+  width: 90%;
+}
+
+.about-me-content div a {
+  text-decoration: none;
+}
+
+.about-me-container div img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 425px;
+  width: auto;
+  margin-bottom: 20px;
+}
+
+.about-me-content button {
+  color: black;
+  font-weight: bold;
+  padding: 10px 13px 10px 13px;
+  border: none;
+  font-size: 20px;
+  width: 150px;
+  height: 40px;
+  background-color: #00e8b6;
+  cursor: pointer;
+}/*# sourceMappingURL=aboutMeStyle.css.map */
