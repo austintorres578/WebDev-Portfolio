@@ -225,6 +225,11 @@
 .about-me-header-container {
   padding-left: 150px;
 }
+.name{
+  text-align: center;
+  color: #00e8b6;
+  text-decoration: underline;
+}
 
 .about-me-page-num p {
   color: #00869d;
