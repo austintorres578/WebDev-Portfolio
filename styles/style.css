@@ -91,24 +91,42 @@
   margin: 0px;
   font-weight: normal;
 }
+@media(max-width:915px){
+  .about-me-con .about-me-image img{
+    height: 400px;
+  }
+  .about-me-con .about-me-description p{
+    font-size: 18px;
+  }
+}
 
-@media (max-width: 810px) {
-  .about-me .about-me-header-container {
-    padding-left: 50px;
+@media(max-width:800px){
+  .about-me .about-me-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .about-me-image img{
+    height: 475px;
+  }
+  .about-me-con .about-me-description{
+    text-align: center;
+    width:100%;
+  }
+  .about-me-con .about-me-description p{
+    font-size: 18px;
   }
 }
 @media (max-width: 750px) {
-  div.about-me {
-    padding-bottom: 30px;
-  }
   .about-me .about-me-container {
     display: flex;
     flex-direction: column;
     margin-bottom: 30px;
-  }
-  div .about-me-content {
-    margin-left: auto;
-    margin-right: auto;
   }
   .about-me .about-me-header-container {
     padding-left: 0px;
@@ -139,11 +157,7 @@
     text-align: center;
     font-size: 18px;
   }
-  .about-me-content button {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+  
   .about-me .about-me-tech img {
     height: 80px;
     width: auto;
@@ -157,6 +171,44 @@
 .about-me-page-num {
   display: flex;
   justify-content: right;
+}
+.about-me-con{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.about-me-image img{
+  padding-left: 30px;
+  height:500px;
+  width: auto;
+}
+.about-me-description{
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.about-me-description p{
+  text-align: center
+  2;
+  margin: 0px;
+  font-size: 20px;
+  padding: 15px;
+  color: white;
+}
+.resume-button{
+  text-align: center;
+}
+.resume-button button{
+  border: none;
+  cursor: pointer;
+  font-size: 22px;
+  padding: 10px 15px 10px 15px;
+  color: black;
+  font-weight: bold;
+  background-color: #00e8b6;
 }
 
 .about-me-page-num hr {
@@ -178,6 +230,8 @@
   color: #00869d;
   font-size: 50px;
   margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .about-me-container {
@@ -209,30 +263,7 @@
   width: 90%;
 }
 
-.about-me-content div a {
-  text-decoration: none;
-}
 
-.about-me-container div img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 425px;
-  width: auto;
-  margin-bottom: 20px;
-}
-
-.about-me-content button {
-  color: black;
-  font-weight: bold;
-  padding: 10px 13px 10px 13px;
-  border: none;
-  font-size: 20px;
-  width: 150px;
-  height: 40px;
-  background-color: #00e8b6;
-  cursor: pointer;
-}
 
 @media (max-width: 810px) {
   .projects .projects-header-container {
@@ -341,6 +372,8 @@
 }
 
 .projects-page-num p {
+  margin-top: 10px;
+  margin-bottom: 10px;
   font-size: 50px;
   color: #00869d;
   margin-left: 10px;
@@ -511,6 +544,8 @@
 }
 
 .contact-page-num p {
+  margin-top: 10px;
+  margin-bottom: 10px;
   font-size: 50px;
   color: #00869d;
   margin-right: 10px;
